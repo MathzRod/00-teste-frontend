@@ -1,0 +1,21 @@
+:root {
+  --bg: #F9FAFC;
+  --text: #1E1F24;
+  --card: #FFFFFF;
+  --border: #e0e0e0;
+  --primary: #2563EA;
+  --secundary: #7F90B9;
+  --input-color: var(--card);
+  --logo-background: var(--primary);
+}
+
+[data-theme='dark'] {
+  --bg: #111828;
+  --text: #ffffff;
+  --card: #202938;
+  --border: #283140;
+  --primary: #60A5FA;
+  --secundary: #7F90B9;
+  --input-color: #111828;
+  --logo-background: transparent;
+}
